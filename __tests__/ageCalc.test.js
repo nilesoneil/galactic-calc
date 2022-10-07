@@ -7,4 +7,8 @@ describe('calcAge', () => {
     //expect statements
     expect(personAge.age).toEqual(6);
   });
+  test("It should take an age and convert to mercury age", () => {
+    const mercuryAge = new PersonAge(6);
+    expect(mercuryAge.calcMercuryAge()).toEqual(.6)
+  });
 });
