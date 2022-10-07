@@ -15,4 +15,8 @@ describe('calcAge', () => {
     const venusAge = new PersonAge(10);
     expect(venusAge.convertToVenus()).toEqual(6.2)
   });
+  test("It should take an age and convert to mars age", () => {
+    const marsAge = new PersonAge(10);
+    expect(marsAge.convertToMars()).toEqual(18.8)
+  });
 });
