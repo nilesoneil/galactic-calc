@@ -17,6 +17,6 @@ describe('calcAge', () => {
   });
   test("It should take an age and convert to mars age", () => {
     const marsAge = new PersonAge(10);
-    expect(marsAge.convertToMars()).toEqual(18.8)
+    expect(marsAge.convertToMars()).toBeCloseTo(18.8)
   });
 });
