@@ -5,5 +5,8 @@ export class PersonAge {
 convertToMercury() {
   return this.age * .24;
 }
+convertToVenus() {
+  return this.age * .62;
+}
 }
 
