@@ -9,17 +9,11 @@ export class PersonAge {
     };
   }
 
-convertToMercury() {
-  return this.age * this.planet["mercury"];
+convertAgeTopPlanet(age, planet) {
+  return age * this.planet[planet];
 }
-convertToVenus() {
-  return this.age * this.planet["venus"];
+
+
 }
-convertToMars() {
-  return this.age * this.planet["mars"];
-}
-convertToJupiter() {
-  return this.age * this.planet["jupiter"];
-}
-}
+
 
