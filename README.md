@@ -1,29 +1,35 @@
-# (Application Name)
+# _Galactic_Calculator_
 
-#### (Brief Description of Application)
+#### By _**Niles O'Neil**_
 
-#### By (Your Name Here)
+#### _Galactic_Calculator_
+
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+*_JAVASCRIPT_
+* _HTML_
+* _CSS_
+* _Jest_
+* _Babel_
+* _ESLINT_
 
 ## Description
 
+_A program for calculating your age on other planets and your life expectancy_
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone this repository to your desktop_
+* _get into your file exploreer and go to the top of the directory_
+* _open index.html in your browser_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _None_
 
 ## License
+
+_MIT_
+
+Copyright (c) _10/8/2022_ _Niles O'Neil_
