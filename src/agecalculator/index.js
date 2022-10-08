@@ -9,7 +9,7 @@ export class PersonAge {
     };
   }
 
-convertAgeTopPlanet(age, planet) {
+convertAgeToPlanet(age, planet) {
   return age * this.planet[planet];
 }
 
