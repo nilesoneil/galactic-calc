@@ -23,4 +23,8 @@ describe('calcAge', () => {
     const jupiterAge = new PersonAge(10);
     expect(jupiterAge.convertToJupiter()).toBeCloseTo(118.6)
   });
+  test("It should take an age return life expectancy", () => {
+    const lifeExpectancy = new PersonAge(10);
+    expect(lifeExpectancy.howLongYouGot()).
+  })
 });

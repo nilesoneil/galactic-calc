@@ -1,18 +1,25 @@
 export class PersonAge {
-  constructor (age) {
-    this.age = age;
+  constructor (yourAge) {
+    this.age = yourAge;
+    this.planet = {
+      mercury: 0.24,
+      venus: .62,
+      mars: 1.88,
+      jupiter: 11.86
+    };
   }
+
 convertToMercury() {
-  return this.age * .24;
+  return this.age * this.planet["mercury"];
 }
 convertToVenus() {
-  return this.age * .62;
+  return this.age * this.planet["venus"];
 }
 convertToMars() {
-  return this.age * 1.88;
+  return this.age * this.planet["mars"];
 }
 convertToJupiter() {
-  return this.age * 11.86;
+  return this.age * this.planet["jupiter"];
 }
 }
 
