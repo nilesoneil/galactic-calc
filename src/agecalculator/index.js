@@ -13,7 +13,10 @@ convertAgeToPlanet(age, planet) {
   return age * this.planet[planet];
 }
 
-
+howLongYouGot(lifeExpectancy, planet) {
+  const tempAge = this.convertAgeToPlanet(this.age, planet) - this.convertAgeToPlanet(lifeExpectancy, planet);
+  return Math.abs(tempAge);
+}
 }
 
 
