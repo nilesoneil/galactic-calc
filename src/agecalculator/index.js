@@ -11,5 +11,8 @@ convertToVenus() {
 convertToMars() {
   return this.age * 1.88;
 }
+convertToJupiter() {
+  return this.age * 11.86;
+}
 }
 

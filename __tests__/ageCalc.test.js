@@ -21,6 +21,6 @@ describe('calcAge', () => {
   });
   test("It should take an age and convert to jupiter age", () => {
     const jupiterAge = new PersonAge(10);
-    expect(jupiterAge.convertToMars()).toEqual(118.6)
+    expect(jupiterAge.convertToJupiter()).toBeCloseTo(118.6)
   });
 });
