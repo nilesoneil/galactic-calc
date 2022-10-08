@@ -24,7 +24,7 @@ describe('calcAge', () => {
     expect(jupiterAge.convertAgeToPlanet(10, "jupiter")).toBeCloseTo(118.6)
   });
   test("It should take an age return life expectancy", () => {
-    const age = 10
+    const age = 10;
     const lifeExpectancy = 8;
     const planet = "jupiter";
     const calc = new PersonAge(age);
